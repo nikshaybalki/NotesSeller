@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEE PYQ Download</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">NB notes</div>
+        <div class="toggle">Dark Mode</div>
+    </header>
+
+    <section class="banner">
+        <div class="content animate__animated animate__fadeInDown">
+            <h2>FREE Question Bank & Previous Year Questions</h2>
+            <p>ONLY JEE MAIN AND JEE ADV</p>
+            <button class="btn">Click here to download notes</button>
+        </div>
+    </section>
+
+    <section class="subjects">
+        <div class="tabs">
+            <button class="tab active" onclick="showSubject('physics')">Physics</button>
+            <button class="tab" onclick="showSubject('chemistry')">Chemistry</button>
+            <button class="tab" onclick="showSubject('mathematics')">Mathematics</button>
+        </div>
+
+        <div class="chapters animate__animated animate__fadeIn" id="physics">
+            <div class="chapter"><span>Kinematics</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Newton Laws of Motion</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Friction</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Work Power Energy</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Centre of Mass and Momentum</span><a href="#" class="download">Download PDF</a></div>
+        </div>
+
+        <div class="chapters animate__animated animate__fadeIn" id="chemistry" style="display: none">
+            <div class="chapter"><span>Atomic Structure</span><a href="Exp 4 wiring and fuses.pdf" target="_blank" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Periodic Table</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Chemical bonding </span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Organic chemistry</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Inorganic chemistry</span><a href="#" class="download">Download PDF</a></div>
+        </div>
+
+        <div class="chapters animate__animated animate__fadeIn" id="mathematics" style="display: none">
+            <div class="chapter"><span>Quadratic Equations</span><a href="#" class="download">Download PDF</a></div>
+            <div class="chapter"><span>Probability</span><a href="#" class="download">Download PDF</a></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
